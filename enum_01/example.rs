@@ -6,9 +6,9 @@ enum Color {
 
 fn print_color_name(color: &Color) {
   match color {
-    Color::Red   => println!("赤色"),
+    Color::Red => println!("赤色"),
     Color::Green => println!("緑色"),
-    Color::Blue  => println!("青色"),
+    Color::Blue => println!("青色"),
   }
 }
 
